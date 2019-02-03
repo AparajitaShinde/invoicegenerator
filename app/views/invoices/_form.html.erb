@@ -13,7 +13,7 @@
 
   <div class="field">
     <%= f.label :invoice_number %><br>
-    <%= f.text_field :invoice_number %>
+    <%= f.text_field :invoice_number,class: "form-control" %>
   </div>
   <div class="field">
     <%= f.label :invoice_date %><br>
@@ -33,5 +33,4 @@
   </div>
   <div class="actions">
     <%= f.submit %>
-  </div>
 <% end %>
